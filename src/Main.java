@@ -26,14 +26,17 @@ public class Main {
         // РАБОТА С ПЕРЕМЕННЫМИ
 
         int a = 50;
+
         System.out.println(a); //Вывод переменной
 
         int b = 20;
-        System.out.println("b = " +b); //Вывод текста с переменной
+
+        System.out.println("b = " + b); //Вывод текста с переменной
 
         // АРИФМЕТИЧЕСКИЕ ДЕЙСТВИЯ С ПЕРЕМЕННЫМИ
 
         int c = 10;
+
         System.out.println(c + b); //Сложение
         System.out.println(c - b); //Вычитание
         System.out.println(c * b); //Умножение
@@ -53,9 +56,12 @@ public class Main {
 
         System.out.println(d + e);
 
+        Scanner cs = new Scanner(System.in);
+
         String f;
 
-        f = sc.nextLine(); //Считывание строки
+        f = cs.nextLine();
+
         System.out.println(f);
 
     }
