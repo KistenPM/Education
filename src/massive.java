@@ -22,9 +22,9 @@ public class massive {
         nums[2] = 30;
         nums[3] = 40;
 
-        for (int num : nums) {
-            System.out.print(num + " ");
-        }
+        for (int num : nums) {                                                                                          // for (int i = 0; i < nums.length; i++) {
+            System.out.print(num + " ");                                                                                //     System.out.println(nums[i]);
+        }                                                                                                               // }
         System.out.println();
 
         int[][] nums2 = new int[2][3];
@@ -35,7 +35,7 @@ public class massive {
         nums2[1][1] = 5;
         nums2[1][2] = 6;
 
-        for (var stroka = 0; stroka < nums2.length; ++stroka ) { // ++stroka  stroka = stroka +1
+        for (var stroka = 0; stroka < nums2.length; ++stroka ) {                                                        // ++stroka same as stroka = stroka +1
             for (var stolb = 0; stolb < nums2[stroka].length; ++stolb) {
                 System.out.print(nums2[stroka][stolb]);
             }
