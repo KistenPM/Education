@@ -21,15 +21,26 @@ public class massive {
         nums[1] = 20;
         nums[2] = 30;
         nums[3] = 40;
-        System.out.println(nums[0]);
-        System.out.println(nums[1]);
-        System.out.println(nums[2]);
-        System.out.println(nums[3]);
+
+        for (int num : nums) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
 
         int[][] nums2 = new int[2][3];
-        nums2[1][0] = 1;
-        nums2[1][1] = 2;
-        nums2[2][1] = 3;
-        System.out.println(nums2);
+        nums2[0][0] = 1;
+        nums2[0][1] = 2;
+        nums2[0][2] = 3;
+        nums2[1][0] = 4;
+        nums2[1][1] = 5;
+        nums2[1][2] = 6;
+
+        for (var stroka = 0; stroka < nums2.length; ++stroka ) { // ++stroka  stroka = stroka +1
+            for (var stolb = 0; stolb < nums2[stroka].length; ++stolb) {
+                System.out.print(nums2[stroka][stolb]);
+            }
+            System.out.println();
+        }
+
     }
 }
