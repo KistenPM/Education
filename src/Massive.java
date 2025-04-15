@@ -1,4 +1,4 @@
-public class massive {
+public class Massive {
 
     public static void main(String[] args) {
 
