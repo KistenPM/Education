@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Fibonacci {
     public static void main(String[] args) {
 
-        System.out.println("Enter the key word, to get access to Fibonacci reader: ");
+        System.out.print("Enter the key word, to get access to Fibonacci reader: ");
 
         Scanner sc = new Scanner(System.in);
 
