@@ -7,7 +7,7 @@ public class OOP {
         Boxification.img = 
         """
         ┌─────┐
-        │winky│
+        │     │
         └─────┘
         """;
         Boxification.displayInfo();
